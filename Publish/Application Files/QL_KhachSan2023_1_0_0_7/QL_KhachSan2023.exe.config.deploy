@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="QL_KhachSan2023.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8" />
+    </startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Runtime.CompilerServices.Unsafe" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-5.0.0.0" newVersion="5.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Bunifu.Core" publicKeyToken="e8e24ccd28363fe9" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.11.5.1" newVersion="1.11.5.1" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="MySql.Data" publicKeyToken="c5687fc88969c44d" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-8.0.31.0" newVersion="8.0.31.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+  <userSettings>
+    <QL_KhachSan2023.Properties.Settings>
+      <setting name="HotenLogin" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="GmailNhanThongBao" serializeAs="String">
+        <value>huykhangvo02092000@gmail.com</value>
+      </setting>
+      <setting name="TKGMAIL" serializeAs="String">
+        <value>18004057@student.vlute.edu.vn</value>
+      </setting>
+      <setting name="MKGMAIL" serializeAs="String">
+        <value>ijupsyaoxdztipgo</value>
+      </setting>
+      <setting name="CMND" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="KeyActive" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="Days" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="Status" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="id" serializeAs="String">
+        <value />
+      </setting>
+    </QL_KhachSan2023.Properties.Settings>
+  </userSettings>
+</configuration>
